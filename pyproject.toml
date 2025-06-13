@@ -1,0 +1,22 @@
+[project]
+name = "mad-td-dev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "brax>=0.12.4",
+    "distrax>=0.1.5",
+    "dm-control>=1.0.28",
+    "flax>=0.10.4",
+    "gymnax>=0.0.8",
+    "hydra-core>=1.3.2",
+    "jax[cuda12]>=0.5.2",
+    "minatar>=1.0.13",
+    "optax>=0.2.4",
+    "tqdm>=4.67.1",
+    "wandb>=0.19.8",
+    "ple @ git+https://github.com/ntasfi/PyGame-Learning-Environment.git",
+    "gym-games @ git+https://github.com/qlan3/gym-games.git@f1e977d",
+    "gymnasium>=1.1.1",
+]

@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.actor.ViperActor
+
+hidden_dims: [256]
+out_dim: ???

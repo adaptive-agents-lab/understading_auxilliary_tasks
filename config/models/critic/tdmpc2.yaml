@@ -1,0 +1,3 @@
+_target_: aux_tasks.nn.critic.TDMPC2Critic
+
+hidden_dims: [512, 512]

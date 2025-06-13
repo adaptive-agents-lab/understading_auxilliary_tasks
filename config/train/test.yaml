@@ -1,0 +1,20 @@
+defaults:
+  - base_train
+
+seed: 123
+num_seeds: 10
+init_steps: 5000
+env_steps: 1
+update_steps: 1
+total_steps: 500000
+full_model_length_steps: 25000
+full_model_use_steps: 25000
+action_samples: 1
+model_batch_size: 512
+rl_batch_size: 512
+log_freq: 1000
+save_freq: 5000
+eval_freq: 10000000
+eval_episodes: 10
+save_path: "checkpoint"
+hard_target_update: 100000000

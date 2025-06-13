@@ -1,0 +1,21 @@
+defaults:
+  - train: test
+  - algo: test
+  - env: test
+  - models/critic: viper
+  - models/actor: viper
+  - models/encoder: viper
+  - models/latent_model: viper
+  - models/decoder: viper
+  - logger: claas
+
+debug: False
+name: aux_tasks
+
+alt_path: 
+
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: True

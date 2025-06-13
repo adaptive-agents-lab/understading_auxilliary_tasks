@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.critic.ViperDuellingDoubleCritic
+
+hidden_dims: [128]
+out_dim: ???

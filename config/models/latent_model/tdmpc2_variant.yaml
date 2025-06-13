@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.model.TDMPC2ContinuousLatentModel
+
+hidden_dims: [512, 512]
+out_dim: ${models.encoder.feature_dim}

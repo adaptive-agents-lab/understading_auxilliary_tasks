@@ -1,0 +1,15 @@
+defaults:
+  - dmc_env
+
+name: walker-run
+domain_name: walker
+task_name: run
+num_envs: ${train.num_seeds}
+seed: ${train.seed}
+action_noise: false
+action_noise_type: uniform
+action_noise_level: 0.0
+frame_skip: 2
+obs_distortion: False
+distraction: True
+noise_distraction: false

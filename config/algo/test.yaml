@@ -1,0 +1,26 @@
+defaults:
+  - base_algo
+
+actor_learning_rate: 0.0003
+critic_learning_rate: 0.0003
+encoder_learning_rate: 0.0001
+model_learning_rate: 0.0003
+gradient_clip: 1.
+gamma: 0.99
+td_average: True
+length_mve: 4
+length_training_rollout: 5
+tau: 0.995
+muzero_direct_vf_target: True
+vaml_real_reward: False
+use_muzero_critic_update: False
+add_model_noise: False
+use_mve: True
+use_svg: True
+detach_actor_encoder: True
+detach_critic_encoder: False
+loss_functions:
+  - [byol_mse,1.]
+  - [reward_recon,1.]
+  # - regularize
+  # - cosine

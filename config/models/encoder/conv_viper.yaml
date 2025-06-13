@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.model.ViperConvEncoder
+
+hidden_dims: [256]
+feature_dim: 100

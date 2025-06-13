@@ -1,0 +1,15 @@
+jax>=0.2.26
+jaxlib>=0.1.74
+gymnax
+gymnasium
+brax
+evosax
+distrax
+optax
+orbax
+flax
+numpy
+tqdm
+hydra-core
+jax-dataclasses
+wandb

@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.model.TDMPCEncoder
+
+hidden_dims: [256]
+feature_dim: 128

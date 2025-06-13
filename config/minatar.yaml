@@ -1,0 +1,29 @@
+defaults:
+  - train: test
+  - algo: test
+  - env: minatar
+  - models/critic: discrete_viper
+  - models/actor: viper
+  - models/encoder: conv_viper
+  - models/latent_model: viper
+  - models/decoder: conv_viper
+  - logger: claas
+  - _self_
+
+debug: False
+name: aux_tasks
+
+algo:
+  tau: 1.0
+train:
+  env_steps: 4
+  hard_target_update: 1000
+  total_steps: 5000000
+
+alt_path: 
+
+hydra:
+  run:
+    dir: ./outputs/${now:%Y-%m-%d}/${now:%H-%M-%S}
+  job:
+    chdir: True

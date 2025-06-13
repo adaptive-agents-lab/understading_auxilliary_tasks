@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.actor.TDMPCActor
+
+hidden_dims: [512, 512]
+out_dim: ???

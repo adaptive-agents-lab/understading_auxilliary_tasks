@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.model.ViperLatentModel
+
+hidden_dims: [256]
+out_dim: ${models.encoder.feature_dim}

@@ -1,0 +1,9 @@
+defaults:
+  - minatar_env
+
+name: Asterix-MinAtar-v1
+num_envs: ${train.num_seeds}
+num_distractions: 0
+noise: False
+obs_distortion: False
+seed: ${train.seed}

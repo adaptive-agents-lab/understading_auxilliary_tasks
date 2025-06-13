@@ -1,0 +1,4 @@
+_target_: aux_tasks.nn.model.TDMPC2Encoder
+
+hidden_dims: [256]
+feature_dim: 256
